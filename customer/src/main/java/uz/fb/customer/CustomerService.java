@@ -26,8 +26,10 @@ public class CustomerService {
                 customer.getId()
         );
 
+        assert fraudCheckResponse != null;
         if (fraudCheckResponse.isFraudulent()){
             throw new IllegalStateException("fraudster");
         }
+
     }
 }

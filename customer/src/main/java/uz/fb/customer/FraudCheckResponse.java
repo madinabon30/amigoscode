@@ -1,8 +1,14 @@
 package uz.fb.customer;
 
-import lombok.Builder;
+import lombok.*;
 
 
-@Builder
-public record FraudCheckResponse(Boolean isFraudulent) {
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class FraudCheckResponse {
+
+    private boolean isFraudulent;
+
 }
