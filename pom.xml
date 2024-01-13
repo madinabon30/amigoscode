@@ -9,6 +9,7 @@
     <module>customer</module>
     <module>fraud</module>
     <module>eureka-server</module>
+      <module>clients</module>
   </modules>
 
   <version>1.0-SNAPSHOT</version>

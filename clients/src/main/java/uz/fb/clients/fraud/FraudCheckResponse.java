@@ -1,4 +1,4 @@
-package uz.fb.fraud;
+package uz.fb.clients.fraud;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
