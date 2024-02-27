@@ -74,7 +74,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
     networks:
       - spring
-#      - postgres
+      - postgres
     depends_on:
       - zipkin
       - eureka-server
@@ -89,7 +89,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
     networks:
       - spring
-#      - postgres
+      - postgres
     depends_on:
       - zipkin
       - eureka-server
@@ -103,7 +103,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
     networks:
       - spring
-#      - postgres
+      - postgres
     depends_on:
       - zipkin
       - eureka-server
